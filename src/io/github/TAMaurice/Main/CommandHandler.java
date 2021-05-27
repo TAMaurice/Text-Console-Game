@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class CommandHandler {
 	
 	public static void getCommand() {
+		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		String input = in.nextLine();
 		
